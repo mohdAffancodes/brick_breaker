@@ -12,15 +12,14 @@ const createWindow = () => {
    const mainWindow = new BrowserWindow({
       width: 806,
       height: 629,
-      //resizable: false,
-      //titleBarStyle: "hidden",
+      resizable: false,
+      titleBarStyle: "hidden",
    });
 
    mainWindow.removeMenu();
 
    // and load the index.html of the app.
-   //mainWindow.loadFile(path.join(__dirname, "gameResources/index.html"));
-   mainWindow.loadURL("https://github.com");
+   mainWindow.loadFile(path.join(__dirname, "./gameResources/index.html"));
 
    // Open the DevTools.
    //mainWindow.webContents.openDevTools();
