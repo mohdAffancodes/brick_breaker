@@ -9,7 +9,8 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "build-installer": "electron-builder"
   },
   "build": {
     "appId": "cool-app",
@@ -24,7 +25,6 @@
       "installerIcon": "src/favicon/favicon.ico",
       "uninstallerIcon": "src/favicon/favicon.ico",
       "uninstallDisplayName": "BRICK_BREAKER",
-      "license": "license.txt",
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
     }
@@ -72,6 +72,6 @@
     "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
     "@electron-forge/maker-zip": "^6.0.0-beta.54",
     "electron": "11.2.3",
-    "build-installer": "electron-builder"
+    "electron-builder": "^22.9.1"
   }
 }

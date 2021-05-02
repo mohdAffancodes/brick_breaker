@@ -1,4 +1,13 @@
 body {
-  margin: auto;
-  max-width: 38rem;
+   background-color: aqua;
+   max-width: 38rem;
+}
+@font-face {
+   font-family: "Press Start 2P";
+   src: url(Press_Start_2P/PressStart2P-Regular.ttf) format("truetype");
+}
+canvas {
+   position: absolute;
+   left: 0;
+   top: 0%;
 }
