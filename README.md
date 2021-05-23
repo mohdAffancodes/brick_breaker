@@ -5,5 +5,4 @@ Classic Arcade brick breaker game with electronjs
 
 <img src="https://raw.githubusercontent.com/mohdAffancodes/mohdAffancodes.github.io/master/images/breaker.png"/>
 
-## To See It Live 
-Click this <a href="https://mohdAffancodes.github.io/breaker">link</a>
+## <a href="https://mohdAffancodes.github.io/breaker">Live Demo</a>
